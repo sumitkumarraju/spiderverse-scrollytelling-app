@@ -9,9 +9,6 @@
 /coverage
 
 # next.js
-/.next/
-/out/
-/public/frames/
 
 # production
 /build
