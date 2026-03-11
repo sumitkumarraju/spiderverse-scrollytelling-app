@@ -59,7 +59,7 @@ export default function TextOverlays({ character }: TextOverlaysProps) {
 
             {/* Oversized Bold Typography & Glitch */}
             <h2
-              className="font-display font-black text-6xl md:text-8xl lg:text-[10rem] leading-[0.8] tracking-tighter mb-8 max-w-[90vw] uppercase glitch-text"
+              className="font-display font-black text-4xl md:text-6xl lg:text-8xl leading-[0.8] tracking-tighter mb-8 max-w-[90vw] uppercase glitch-text"
               style={{
                 textShadow: `0 0 60px ${character.themeColor}aa`,
                 color: "white"
@@ -73,7 +73,7 @@ export default function TextOverlays({ character }: TextOverlaysProps) {
             <div className="relative">
                {/* Webline separator */}
                <div className="absolute -top-6 left-1/2 -translate-x-1/2 w-32 h-[1px] bg-gradient-to-r from-transparent via-white/50 to-transparent" />
-               <p className="text-white text-lg md:text-3xl max-w-3xl leading-relaxed font-medium mt-4 mix-blend-plus-lighter backdrop-blur-sm p-6 rounded-2xl bg-black/40 border border-white/10 shadow-2xl">
+               <p className="text-white text-base md:text-xl max-w-2xl leading-relaxed font-medium mt-4 mix-blend-plus-lighter backdrop-blur-sm p-6 rounded-2xl bg-black/40 border border-white/10 shadow-2xl">
                  {section.data.subtitle}
                </p>
             </div>
